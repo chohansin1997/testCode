@@ -1,0 +1,41 @@
+ifndef::snippets[]
+:snippets: ../../../target/generated-snippets
+endif::[]
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 3
+:sectlinks:
+:docinfo: shared-head
+
+= 테스트 코드 Docs
+
+[[test-code-docs]]
+== 테스트 코드
+
+[[test-code-get]]
+==== 테스트 코드 Get
+* Request Data Parameters
+include::{snippets}/test-controller-test/get-method-snippet/request-parameters.adoc[]
+* Response Data Fields
+include::{snippets}/test-controller-test/get-method-snippet/response-fields.adoc[]
+
+[[test-code-post]]
+==== 테스트 코드 Post
+* Request Data Path Parameters +
+Request URI +
+include::{snippets}/test-controller-test/post-method/path-parameters.adoc[]
+* Request Data Parameters
+include::{snippets}/test-controller-test/post-method/request-fields.adoc[]
+* Response Data Fields
+include::{snippets}/test-controller-test/post-method/response-fields.adoc[]
+
+[[test-code-delete]]
+==== 테스트 코드 delete
+* Request Data Path Parameters
+include::{snippets}/test-controller-test/delete-method/path-parameters.adoc[]
+* Response Data Fields
+include::{snippets}/test-controller-test/delete-method/response-fields.adoc[]
+
+
